@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Elante Mall 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- 1. HEADER SECTION -->
+    <header>
+        <div class="header-content">
+            <div class="logo">Nexus Mall</div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#brands">Brands</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-controls">
+                <input type="search" class="search-field" placeholder="Search products...">
+                <button class="login-btn">Log In</button>
+                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- website one caursal  -->
+    <section>
+                <div class="carousel-container">
+                <div class="carousel-track-container">
+
+                    <ul class="carousel-track">
+                      
+                        <li class="carousel-slide">
+                            <img src="img/mall3.avif" alt="Seasonal Sale">
+                            <div class="slide-content">
+                                <h2> Mohan Mega Mall!</h2>
+                                <p>Up to **70% OFF**<br> on all fashion and beachwear. <br>Shop now!</p>
+                                <a href="#" class="shop-btn">Explore Deals</a>
+                            </div>
+                        </li>
+
+                         <li class="carousel-slide">
+                            <img src="img/mall2.avif" alt="Dining Specials">
+                            <div class="slide-content">
+                                <h2>🍔 Taste the World!</h2>
+                                <p>**20% Off** <br> all premium restaurants this weekend only.</p>
+                                <a href="#" class="shop-btn">Find a Restaurant</a>
+                            </div>
+                        </li>
+                       
+
+                        <li class="carousel-slide">
+                            <img src="img/mall2.avif" alt="Dining Specials">
+                            <div class="slide-content">
+                                <h2>🍔 Taste the World!</h2>
+                                <p>**20% Off** <br> all premium restaurants this weekend only.</p>
+                                <a href="#" class="shop-btn">Find a Restaurant</a>
+                            </div>
+                        </li>
+
+                        </ul>
+                </div>
+                
+                <button class="carousel-button prev" aria-label="Previous Slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-button next" aria-label="Next Slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <div class="carousel-nav">
+                    <button class="carousel-indicator current" data-slide-index="0" aria-label="Go to slide 1"></button>
+                    <button class="carousel-indicator" data-slide-index="1" aria-label="Go to slide 2"></button>
+                    <button class="carousel-indicator" data-slide-index="2" aria-label="Go to slide 3"></button>
+                    </div>
+
+                </div>
+    </section>
+
+       
+        <!-- 3. CLIENT / BRANDS SECTION (with Transitions and Hover) -->
+        <section id="brands" class="client-section">
+            <h2>Our Featured Brands</h2>
+            <div class="client-grid">
+                <!-- Hover/Transition Effect on client-card -->
+                <div class="client-card"><span class="client-logo" style="color:#d9534f;">Elite Wear</span></div>
+                <div class="client-card"><span class="client-logo" style="color:#f0ad4e;">TechCore</span></div>
+                <div class="client-card"><span class="client-logo" style="color:#5cb85c;">HomeDecor Co.</span></div>
+                <div class="client-card"><span class="client-logo" style="color:#0275d8;">Gourmet Kitchen</span></div>
+                <div class="client-card"><span class="client-logo" style="color:#6c757d;">SportZone</span></div>
+                <div class="client-card"><span class="client-logo" style="color:#5bc0de;">Bookworm Hub</span></div>
+            </div>
+        </section>
+
+
+        <!-- 4. MORE SECTION (Featured Products) -->
+        <section id="products" class="more-section">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card">
+                     <img src="img/watch1.avif" alt="">
+                    <div class="product-info">
+                        <h4>Aero Chronograph Watch</h4>
+                        <p>High-end Swiss movement, leather strap.</p>
+                        <div class="price">$499.00</div>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="product-card">
+                    <img src="img/headphone2.avif" alt="Headphones">
+                    <div class="product-info">
+                        <h4>Silence Pro Headphones</h4>
+                        <p>Active noise cancellation, 30hr battery life.</p>
+                        <div class="price">$199.99</div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="product-card">
+                     <img src="img/laptop2.avif" alt="laptop">
+                    <div class="product-info">
+                        <h4>Merino Wool Knit Sweater</h4>
+                        <p>Warm and comfortable, available in 5 colors.</p>
+                        <div class="price">$89.50</div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="product-card">
+                     <img src="img/watch2.avif" alt="">
+                    <div class="product-info">
+                        <h4>Universal Smart Home Hub</h4>
+                        <p>Control all your smart devices instantly.</p>
+                        <div class="price">$120.00</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- 5. CONTACT SECTION (with Great Transitions) -->
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <p>Have questions or need assistance? Send us a message!</p>
+                <form onsubmit="event.preventDefault(); alert('Message Sent! Thank you for contacting Nexus Mall.');">
+                    <div class="form-group">
+                        <!-- Transition Effect: Input focus -->
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <!-- Transition Effect: Button hover -->
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <!-- 6. FOOTER SECTION -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h5>About Nexus Mall</h5>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Location Map</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Customer Service</h5>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Shop With Us</h5>
+                <ul>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                    <li><a href="#">Loyalty Rewards</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Connect</h5>
+                <p>Email:  &nbsp; mohannhc2005@gmail.com</p>
+                <p>Phone: +91 7529856020</p>
+                <p>Address: 74 BDC sector 26, Chandigarh, India</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Nexus Mall. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
