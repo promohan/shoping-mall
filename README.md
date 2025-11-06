@@ -1,4 +1,4 @@
-# 🏬 Moh Mega Mall
+# 🏬 Mohan Mega Mall
 
 Welcome to **Moh Mega Mall** — a modern and responsive shopping mall website built using HTML, CSS, and JavaScript.  
 This project showcases a stylish, user-friendly interface that simulates an online mall experience, complete with featured brands, exclusive deals, and product listings.
